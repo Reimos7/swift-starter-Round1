@@ -9,7 +9,7 @@
 import Foundation
 
 
-makeIceCreamBody(extent: 8)
+makeIceCreamBody(hight: 8)
 makeIceCreamStick(length: 4)
 
 makePepero(bodylength: 10, bodyStyle: "*", bodyTopping: "#", stickLength: 4)

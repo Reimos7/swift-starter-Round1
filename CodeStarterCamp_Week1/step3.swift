@@ -16,20 +16,20 @@ func makePepero(bodylength: Int, bodyStyle: String, bodyTopping: String, stickLe
     print("막대길이: \(stickLength)")
     print("")
         
-    func makeBody(_ bodylength: Int) {
-        for _ in 1...bodylength {
+    func makePeperoBody(_ length: Int) {
+        for _ in 1...length {
             print("\(bodyTopping) \(bodyStyle) \(bodyTopping)")
         }
     }
     
-    func makeStick(_ stickLength: Int) {
-        for _ in 1...stickLength {
+    func makePeperoStick(_ length: Int) {
+        for _ in 1...length {
             print(" | | ")
         }
     }
 
-    makeBody(bodylength)
-    makeStick(stickLength)
+    makePeperoBody(bodylength)
+    makePeperoStick(stickLength)
     
 }
 
